@@ -45,6 +45,26 @@ code {
 }
 
 #container-header {
+  margin-bottom: 20px;
+}
+
+#skill-label {
+  line-height: 40px; /* 125% */
+  letter-spacing: -1px;
+  font-size: 32px;
+}
+
+#experience-label {
+  color: var(--Grey, #d9d9d9);
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  font-size: 16px;
+}
+
+#container-skill {
+  border-top: #fff;
+  border-top-width: 1px;
+  border-top-style: solid;
   border-bottom: #fff;
   border-bottom-width: 1px;
   border-bottom-style: solid;
