@@ -36,17 +36,17 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <!--container principal-->
-    <div class="container-fluid bg-dark text-center">
+    <div class="container-fluid text-center" id="main-container">
       <!--container for the header-->
-      <div class="container bg-dark">
+      <div class="container" id="container-header">
         <!-- row for the header-->
         <div class="row text-white justify-content-center">
           <!--div for the label name  -->
-          <div class="col-12">
-            <p>Rene Irias</p>
+          <div class="col-12 justify-content-center">
+            <p class="whiteLabel" id="nickname">rene-risa</p>
           </div>
           <!--// col for the icons and portrait -->
-          <div class="col-12 bg-white">
+          <div class="col-6">
             <!-- // row for the icons and portrait-->
             <div class="row justify-content-center">
               <!--// col for the icons -->
@@ -56,46 +56,58 @@
                   <!--col for linkedin icon-->
                   <div class="col">
                     <a href="https://www.linkedin.com/in/rene-irias/">
-                      <img
-                        src="https://img.icons8.com/color/48/000000/linkedin.png"
-                        class="img-fluid"
-                      />
+                      <img src="./icon-linkedin.svg" class="img-fluid" />
                     </a>
                   </div>
                   <!--col for github icon-->
                   <div class="col">
                     <a href="https://github.com/reneirias">
-                      <img
-                        src="https://img.icons8.com/color/48/000000/github.png"
-                        class="img-fluid"
-                      />
+                      <img src="./icon-github.svg" class="img-fluid" />
                     </a>
                   </div>
                   <!--col for instagram icon-->
                   <div class="col">
                     <a href="https://www.instagram.com/reneirias/">
-                      <img
-                        src="https://img.icons8.com/color/48/000000/instagram.png"
-                        class="img-fluid"
-                      />
+                      <img src="./icon-frontend-mentor.svg" class="img-fluid" />
                     </a>
                   </div>
                   <!--col for facebook icon-->
                   <div class="col">
                     <a href="https://www.facebook.com/reneirias">
-                      <img
-                        src="https://img.icons8.com/color/48/000000/facebook.png"
-                        class="img-fluid"
-                      />
+                      <img src="./icon-twitter.svg" class="img-fluid" />
                     </a>
                   </div>
                 </div>
               </div>
+              <!--// col for the portrait picture-->
+              <div class="col-12">
+                <img
+                  src="./image-profile-mobile.webp"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
             </div>
-            <!--// col for the portrait picture-->
-            <div class="col-12">
-              <img src="" alt="" class="img-fluid" />
-            </div>
+          </div>
+          <!--// col for Nice to meet you -->
+          <div class="col-12">
+            <p class="whiteLabel" id="second-label">
+              Nice to meet you! <br />
+              I'm Rene Irias
+            </p>
+          </div>
+          <!--col for Introduction -->
+          <div class="col-10">
+            <p class="whiteLabel" id="intro-label">
+              I'm a software engineer with a passion for building beautiful and
+              functional websites.
+            </p>
+          </div>
+          <!--// col for Contact me -->
+          <div>
+            <a href="">
+              <button class="btn btn-dark">Contact me</button>
+            </a>
           </div>
         </div>
       </div>
