@@ -17,6 +17,21 @@ code {
   background: var(--Black, #151515);
 }
 
+#btnContactMe {
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 2.286px;
+  font-size: 16px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--Green, #4ee1a0);
+  text-decoration-thickness: 2px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+#btnContactMe:hover {
+  color: var(--Green, #4ee1a0);
+}
+
 .whiteLabel {
   color: var(--White, #fff);
   font-family: Space Grotesk;
@@ -103,6 +118,9 @@ code {
   text-decoration-color: var(--Green, #4ee1a0);
   text-decoration-thickness: 2px;
 }
+#btnViewProject:hover {
+  color: var(--Green, #4ee1a0);
+}
 
 #btnViewCode {
   margin-top: 20px;
@@ -114,6 +132,9 @@ code {
   text-decoration-style: solid;
   text-decoration-color: var(--Green, #4ee1a0);
   text-decoration-thickness: 2px;
+}
+#btnViewCode:hover {
+  color: var(--Green, #4ee1a0);
 }
 
 #container-contact {

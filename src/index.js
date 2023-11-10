@@ -10,8 +10,9 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
+const btnContactMe = document.getElementById("btnContactMe");
 const btnSubmit = document.getElementById("btnSubmitForma");
+const containerContact = document.getElementById("container-contact");
 
 btnSubmit.addEventListener("click", (e) => {
   e.preventDefault();
@@ -47,6 +48,13 @@ btnSubmit.addEventListener("click", (e) => {
     email: email,
     message: message,
   };
+});
+
+btnContactMe.addEventListener("click", (e) => {
+  e.preventDefault();
+  if (containerContact) {
+    containerContact.scrollIntoView({ behavior: "smooth" });
+  }
 });
 
 // If you want to start measuring performance in your app, pass a function
