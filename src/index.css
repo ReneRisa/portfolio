@@ -12,8 +12,8 @@ code {
     monospace;
 }
 #main-container {
-  height: 5013px;
-  width: 375px;
+  height: auto;
+  width: auto;
   background: var(--Black, #151515);
 }
 
