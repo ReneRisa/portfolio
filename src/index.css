@@ -332,4 +332,36 @@ code {
   #btnContactMe {
     float: left;
   }
+  #skill-label {
+    line-height: 56px; /* 125% */
+    letter-spacing: -1.5px;
+    font-size: 48px;
+  }
+
+  #experience-label {
+    color: var(--Grey, #d9d9d9);
+    font-weight: 500;
+    line-height: 28px; /* 162.5% */
+    font-size: 18px;
+  }
+  #container-project-title {
+    line-height: 72px; /* 100% */
+    letter-spacing: -2.045px;
+    font-size: 72px;
+  }
+  #contact-title {
+    font-weight: 700;
+    line-height: 72px; /* 100% */
+    letter-spacing: -2.045px;
+    font-size: 72px;
+    margin-top: 15%;
+  }
+
+  #contact-info {
+    margin-top: 5%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px; /* 162.5% */
+    margin-bottom: 15%;
+  }
 }
