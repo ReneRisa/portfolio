@@ -365,3 +365,6 @@ code {
     margin-bottom: 15%;
   }
 }
+
+@media (min-width: 1200px) {
+}
