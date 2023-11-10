@@ -17,6 +17,36 @@ code {
   background: var(--Black, #151515);
 }
 
+#rings {
+  position: absolute;
+  top: 220px;
+  left: -100px;
+  width: 530px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 530px;
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  z-index: 1; /* Set a lower z-index value */
+}
+#rings:hover {
+  transform: scale(1.1);
+}
+
+#spanName {
+  text-decoration-line: underline;
+  text-decoration-color: var(--Green, #4ee1a0);
+}
+
+#circle {
+  position: absolute;
+  top: 590px;
+  right: -40px;
+  width: 530px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 530px;
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  z-index: 1; /* Set a lower z-index value */
+}
+
 #btnContactMe {
   line-height: 26px; /* 162.5% */
   letter-spacing: 2.286px;
@@ -31,7 +61,11 @@ code {
 #btnContactMe:hover {
   color: var(--Green, #4ee1a0);
 }
-
+#container-portrait {
+  box-shadow: 0 18px 18px rgba(255, 2, 2, 0.1);
+  z-index: 1; /* Set a higher z-index value */
+  margin-top: 30%;
+}
 .whiteLabel {
   color: var(--White, #fff);
   font-family: Space Grotesk;
