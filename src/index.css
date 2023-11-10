@@ -18,10 +18,10 @@ code {
 }
 
 #rings {
-  position: absolute;
-  top: 220px;
-  left: -100px;
-  width: 530px; /* Adjust the width as needed */
+  position: fixed;
+  top: 150px;
+  left: -400px;
+  width: 150%; /* Adjust the width as needed */
   height: auto; /* Maintain the aspect ratio */
   border-radius: 530px;
   transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
@@ -37,10 +37,10 @@ code {
 }
 
 #circle {
-  position: absolute;
-  top: 590px;
-  right: -40px;
-  width: 530px; /* Adjust the width as needed */
+  position: fixed;
+  top: 200px;
+  right: -200px;
+  width: 100%; /* Adjust the width as needed */
   height: auto; /* Maintain the aspect ratio */
   border-radius: 530px;
   transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
@@ -291,4 +291,43 @@ code {
 }
 #btnSubmitForma {
   float: right;
+}
+
+@media (min-width: 768px) {
+  #container-IconsPortrait {
+    margin-top: -5%;
+  }
+  #container-labelname > p {
+    float: left;
+    font-size: 32px;
+  }
+  #container-Introduction {
+    padding-top: 15%;
+    justify-content: space-evenly;
+  }
+  #second-label {
+    font-size: 55px;
+    line-height: 72px; /* 100% */
+    letter-spacing: -2.045px;
+    text-align: left;
+  }
+  #intro-label {
+    text-align: start;
+    line-height: 28px; /* 155.556% */
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 18px;
+  }
+  #rings {
+    position: absolute;
+    top: 100px;
+    left: -510px;
+    width: 530px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 530px;
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+    z-index: 1; /* Set a lower z-index value */
+  }
+  #btnContactMe {
+    float: left;
+  }
 }

@@ -41,12 +41,12 @@
       <div class="container" id="container-header">
         <!-- row for the header-->
         <div class="row text-white justify-content-center">
-          <!--div for the label name  -->
-          <div class="col-12 justify-content-center">
+          <!--col for the label name  -->
+          <div class="col-12 col-md-12 order-md-1" id="container-labelname">
             <p class="whiteLabel" id="nickname">rene-risa</p>
           </div>
           <!--// col for the icons and portrait -->
-          <div class="col-6">
+          <div class="col-6 col-md-6 order-md-3" id="container-IconsPortrait">
             <!-- // row for the icons and portrait-->
             <div class="row justify-content-center">
               <!--// col for the icons -->
@@ -79,39 +79,45 @@
                   </div>
                 </div>
               </div>
-              <!--// col for the oval lines -->
+              <!--// col for the oval lines 
               <div class="col-12" id="rings">
-                <img src="./pattern-rings.svg" alt="" class="img-fluid" />
-              </div>
+                <img src="./pattern-rings.svg" alt="" class="" />
+              </div>-->
               <!--// col for the portrait picture-->
               <div class="col-12 mb-5" id="container-portrait">
                 <img src="./portrait-Photo.webp" alt="" class="img-fluid" />
               </div>
-              <!--// col for the circle -->
+              <!--// col for the circle 
               <div class="col-12" id="circle">
-                <img src="./pattern-circle.svg" alt="" class="img-fluid" />
-              </div>
+                <img src="./pattern-circle.svg" alt="" class="" />
+              </div>-->
             </div>
           </div>
-          <!--// col for Nice to meet you -->
-          <div class="col-12">
-            <p class="whiteLabel" id="second-label">
-              Nice to meet you! <br />
-              I'm <span id="spanName">Rene Irias.</span>
-            </p>
-          </div>
-          <!--col for Introduction -->
-          <div class="col-10">
-            <p class="whiteLabel" id="intro-label">
-              I'm a software engineer with a passion for building beautiful and
-              functional websites.
-            </p>
-          </div>
-          <!--// col for Contact me -->
-          <div>
-            <a href="">
-              <p class="whiteLabel" id="btnContactMe">CONTACT ME</p>
-            </a>
+          <!--// col for Introduction and contact me  -->
+          <div class="col-12 col-md-6 order-md-2" id="container-Introduction">
+            <!--row for Introduction and contact me-->
+            <div class="row justify-content-center">
+              <!--// col for Nice to meet you -->
+              <div class="col-12 mb-5">
+                <p class="whiteLabel" id="second-label">
+                  Nice to meet you! <br />
+                  I'm <span id="spanName">Rene Irias.</span>
+                </p>
+              </div>
+              <!--col for Introduction -->
+              <div class="col-12 mb-4">
+                <p class="whiteLabel" id="intro-label">
+                  I'm a software engineer with a passion for building beautiful
+                  and functional websites.
+                </p>
+              </div>
+              <!--// col for Contact me -->
+              <div>
+                <a href="">
+                  <p class="whiteLabel" id="btnContactMe">CONTACT ME</p>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
