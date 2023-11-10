@@ -115,3 +115,127 @@ code {
   text-decoration-color: var(--Green, #4ee1a0);
   text-decoration-thickness: 2px;
 }
+
+#container-contact {
+  background: var(--Dark-Grey, #242424);
+  margin-top: 10%;
+}
+.invalid-feedback {
+  float: right;
+}
+#name {
+  color: var(--White, #fff);
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.222px;
+  opacity: 0.5;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+}
+#name:focus {
+  border-bottom: 2px solid var(--Green, #4ee1a0);
+  opacity: 1;
+}
+#email:focus {
+  border-bottom: 2px solid var(--Green, #4ee1a0);
+  opacity: 1;
+}
+#message:focus {
+  border-bottom: 2px solid var(--Green, #4ee1a0);
+  opacity: 1;
+}
+#btnSubmitForm:hover {
+  color: var(--Green, #4ee1a0);
+}
+#name::placeholder {
+  color: #fff;
+}
+#email::placeholder {
+  color: #fff;
+}
+#message::placeholder {
+  color: #fff;
+}
+
+#email {
+  color: #fff;
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.222px;
+  opacity: 0.5;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+}
+
+#message {
+  color: #fff;
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.222px;
+  opacity: 0.5;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+}
+
+#contact-title {
+  font-weight: 700;
+  line-height: 40px; /* 100% */
+  letter-spacing: -1.136px;
+  font-size: 40px;
+  margin-top: 15%;
+}
+
+#contact-info {
+  margin-top: 5%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 15%;
+}
+
+#footer-section {
+  margin-top: 10%;
+  border-top: 2px solid #fff;
+}
+
+#footer-nickname {
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.333px;
+  font-size: 24px;
+  margin-top: 10%;
+}
+
+#footer-icons {
+  margin-bottom: 15%;
+}
+
+#btnSubmitForm {
+  margin-top: 10%;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 2.286px;
+  font-size: 16px;
+  text-align: end;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--Green, #4ee1a0);
+  text-decoration-thickness: 2px;
+}
+#btnSubmitForma {
+  float: right;
+}
