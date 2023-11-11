@@ -428,83 +428,89 @@
       <div class="container" id="container-contact">
         <!--row for the contact section-->
         <div class="row justify-content-center">
-          <!--col for the contact title-->
-          <div class="col-12 col-md-8">
-            <p class="whiteLabel" id="contact-title">Contact</p>
+          <!--col for contact-->
+          <div class="col-12 col-xl-6">
+            <!--col for the contact title-->
+            <div class="col-12 col-md-8 col-xl-12">
+              <p class="whiteLabel" id="contact-title">Contact</p>
+            </div>
+            <!--col for the contact info-->
+            <div class="col-12 col-md-8 col-xl-12">
+              <p class="whiteLabel" id="contact-info">
+                I would love to hear about your project and how I could help.
+                Please fill in the form, and I'll get back to you as soon as
+                possible.
+              </p>
+            </div>
           </div>
-          <!--col for the contact info-->
-          <div class="col-12 col-md-8">
-            <p class="whiteLabel" id="contact-info">
-              I would love to hear about your project and how I could help.
-              Please fill in the form, and I'll get back to you as soon as
-              possible.
-            </p>
-          </div>
-          <!--row for the contact form-->
-          <div class="row justify-content-center">
-            <!--col for the contact form-->
-            <div class="col-12 col-md-8">
-              <form
-                action=""
-                method=""
-                id="contact-form"
-                class="needs-validation"
-                novalidate
-              >
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control form-control-lg form-control-sm"
-                    id="name"
-                    name="name"
-                    placeholder="NAME"
-                    required
-                  />
-                  <div
-                    id="nameError"
-                    class="col-12 text-right invalid-feedback"
-                  >
-                    Name can not be blank
+          <!--col for the contact form-->
+          <div class="col-12 col-xl-6">
+            <!--row for the contact form-->
+            <div class="row justify-content-center">
+              <!--col for the contact form-->
+              <div class="col-12 col-md-8 col-xl-10">
+                <form
+                  action=""
+                  method=""
+                  id="contact-form"
+                  class="needs-validation"
+                  novalidate
+                >
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control form-control-lg form-control-sm"
+                      id="name"
+                      name="name"
+                      placeholder="NAME"
+                      required
+                    />
+                    <div
+                      id="nameError"
+                      class="col-12 text-right invalid-feedback"
+                    >
+                      Name can not be blank
+                    </div>
                   </div>
-                </div>
-                <div class="form-group">
-                  <input
-                    type="email"
-                    class="bg-trasnparent form-control form-control-lg form-control-sm"
-                    id="email"
-                    name="email"
-                    placeholder="EMAIL"
-                    required
-                  />
-                  <div
-                    id="emailError"
-                    class="col-12 invalid-feedback text-right"
-                  >
-                    Email is required
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="bg-trasnparent form-control form-control-lg form-control-sm"
+                      id="email"
+                      name="email"
+                      placeholder="EMAIL"
+                      required
+                    />
+                    <div
+                      id="emailError"
+                      class="col-12 invalid-feedback text-right"
+                    >
+                      Email is required
+                    </div>
                   </div>
-                </div>
-                <div class="form-group">
-                  <textarea
-                    class="bg-trasnparent form-control form-control-lg form-control-sm"
-                    id="message"
-                    name="message"
-                    placeholder="MESSAGE"
-                    rows="5"
-                    required
-                  ></textarea>
-                  <div
-                    id="messageError"
-                    class="col-12 text-right invalid-feedback"
-                  >
-                    Please enter a valid message!
+                  <div class="form-group">
+                    <textarea
+                      class="bg-trasnparent form-control form-control-lg form-control-sm"
+                      id="message"
+                      name="message"
+                      placeholder="MESSAGE"
+                      rows="5"
+                      required
+                    ></textarea>
+                    <div
+                      id="messageError"
+                      class="col-12 text-right invalid-feedback"
+                    >
+                      Please enter a valid message!
+                    </div>
                   </div>
-                </div>
-                <div class="col-12 bg-white text-align-end">
-                  <a type="submit" href="" id="btnSubmitForma">
-                    <p class="whiteLabel" id="btnSubmitForm">SEND MESSAGE</p>
-                  </a>
-                </div>
-              </form>
+                  <div class="col-12 bg-white text-align-end">
+                    <a type="submit" href="" id="btnSubmitForma">
+                      <p class="whiteLabel" id="btnSubmitForm">SEND MESSAGE</p>
+                    </a>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
 
