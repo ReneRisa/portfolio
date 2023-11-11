@@ -367,4 +367,45 @@ code {
 }
 
 @media (min-width: 1200px) {
+  #container-Introduction {
+    padding-top: 15%;
+    justify-content: space-evenly;
+  }
+  #container-labelname > p {
+    margin-top: 50px;
+    margin-bottom: -30px;
+  }
+  #container-IconsPortrait {
+    margin-top: 10px;
+  }
+  #main-container {
+    width: auto;
+    background: var(--Black, #151515);
+  }
+  #container-header {
+    width: 1100px;
+  }
+
+  #container-portrait {
+    margin-top: 40px;
+    height: 618px;
+    width: 450px;
+  }
+  #portrait {
+    height: 618px;
+  }
+  #second-label {
+    font-size: 88px;
+    line-height: 88px; /* 100% */
+    letter-spacing: -2.5px;
+    text-align: left;
+    font-feature-settings: "clig" off, "liga" off;
+    margin-right: -200px;
+  }
+  #intro-label {
+    text-align: start;
+    line-height: 28px; /* 155.556% */
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 18px;
+  }
 }
